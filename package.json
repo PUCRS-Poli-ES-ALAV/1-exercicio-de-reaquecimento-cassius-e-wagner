@@ -1,0 +1,20 @@
+{
+  "name": "1-exercicio-de-reaquecimento-cassius-e-wagner",
+  "version": "1.0.0",
+  "description": "Vamos fazer alguns exercícios de programação, para re-lembrar algortimos recursivos. Além disto, é uma oportunidade para utilizarmos nosso ambiente de trabalho (Git-Github-Github classroom).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PUCRS-Poli-ES-ALAV/1-exercicio-de-reaquecimento-cassius-e-wagner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PUCRS-Poli-ES-ALAV/1-exercicio-de-reaquecimento-cassius-e-wagner/issues"
+  },
+  "homepage": "https://github.com/PUCRS-Poli-ES-ALAV/1-exercicio-de-reaquecimento-cassius-e-wagner#readme"
+}
