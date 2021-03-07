@@ -134,9 +134,22 @@ console.log(
 
 // Dado um número n, gere todas as possíveis combinações com as n primeiras letras do alfabeto. Ex.: n = 3. Resposta: ABC, ACB, BAC, BCA, CAB, CBA.
 
+function combinações(value) {}
+
 /*
     Defina uma sequência de Fibonacci generalizada, de f0 a f1 como sequência fibg(f0, f1, 0), fibg(f0, f1, 1), fibg(f0, f1, 2), ..., onde:
     fibg(f0, f1, 0) = f0
     fibg(f0, f1, 1) = f1
     fibg(f0, f1, n) = fibg(f0, f1, n − 1) + fibg(f0, f1, n − 2), se n > 1.
  */
+
+function fibonacci(f0, f1, n) {
+  if (n === 0) {
+    return f0;
+  }
+  if (n === 1) {
+    return f1;
+  }
+
+  return fibonacci(f0, f1, n - 1) + fibonacci(f0, f1, n - 2);
+}
